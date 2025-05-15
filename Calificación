@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void){
+
+float cal;
+
+printf("Ingrese su calificación: ");
+scanf("%f", &cal);
+
+if (cal >= 90 && cal <= 100)    
+    printf("Calificación A");
+    
+if (cal >= 80 && cal < 90)    
+    printf("Calificación B");    
+    
+if (cal >= 70 && cal < 80)    
+    printf("Calificación C");   
+    
+if (cal >= 60 && cal < 70)    
+    printf("Calificación D");
+    
+if (cal < 60)    
+    printf("Calificación F");    
+    
+return 0;
+}  
